@@ -1,5 +1,6 @@
 import re
 def isPhoneNumber(text):
+    print("Input: ",text)
     x=re.findall("[1-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]",text)
     if x==[]:
         return False
